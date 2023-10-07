@@ -26,8 +26,6 @@ GROUP BY bin_floor
 ORDER BY bin_floor;
 
 --4.
-OBJECTIVE 2
-
 SELECT
   repeat_purchase,
   FLOOR(sales / 250) * 250 AS bin_floor,
